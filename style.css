@@ -1,0 +1,28 @@
+	
+	.box {
+		width: 1200px;
+		height: 900px;
+		
+		color: #fff;
+		padding: 0px;
+		
+		margin: 0px 0 0 0;
+	}
+	
+	#box1 {
+		margin: 0px 0 0 0;
+		background: blue;
+	}
+	
+	#box2 {
+		background: red;
+	}
+	
+	#box3 {
+		background: green;
+	}
+	
+	#box4 {
+		background: gray;
+	}
+	
