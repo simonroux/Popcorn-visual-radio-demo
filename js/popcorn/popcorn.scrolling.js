@@ -3,20 +3,14 @@
   Popcorn.plugin( "scrolling" , function( options ) {
 
     return {
-      _setup: function() {
-        // optional                          
-      },
       start: function( event, options ) {
-        // Do stuff at the start!
-        console.log("The Start!");
+				// options.target is a string representing the ID a DOM object
+				$.scrollTo($('#' + options.target), 500)
       },
+
       end: function( event, options ) {
-        // Do stuff at the end!
-        console.log("The End!");
+				// Do nothing
       }, 
-      _teardown: function() {
-        // optional            
-      }
     };
   });
     

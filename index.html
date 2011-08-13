@@ -5,16 +5,13 @@
 	
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
 	
-	<title>jQuery scrollTo & localscroll Demo</title> 
+	<title>Popcorn.js scrolling demo</title> 
 		
 	<!-- Load jQuery --> 
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script> 
 	
 	<!-- Load ScrollTo --> 
 	<script src="js/jquery/jquery.scrollTo.js"></script> 
-	
-	<!-- Load LocalScroll --> 
-	<script src="js/jquery/jquery.localscroll.js"></script> 
 	
 	<!-- Load Popcorn stuff -->
 	<script src="js/popcorn/popcorn-complete.js"></script>
@@ -23,86 +20,53 @@
 	<!-- Load CSS --> 
 	<link rel="stylesheet" href="style.css" type="text/css" media="screen"/>
 
-
-<!-- javascript that will initiate jQuery and the LocalScroll plugin --> 
-
-<script> 
+  <!-- javascript that will initiate jQuery and the LocalScroll plugin -->
+  <script>
 	
-	
-<!--Jquery scrollTo script -->	
-	// When the document is loaded...
-    $(document).ready(function()
-	{
-		// Scroll the whole document 
-		$('#box-links').localScroll({
-		   target:'body'
-		});
-		
-	});
-	
-	
-<!--Popcorn script -->	
-     // ensure the web page (DOM) has loaded
-      document.addEventListener("DOMContentLoaded", function () {
+  // When the document is loaded...
+  $(document).ready(function() {
+     // Create a popcorn instance by calling Popcorn("#id-of-my-video")
+     var pop = Popcorn("#ourvideo")
 
-         // Create a popcorn instance by calling Popcorn("#id-of-my-video")
-         var pop = Popcorn("#ourvideo");
+  	// Scroll the page
+  	.scrolling({
+  	  start: 0, 
+  	  end: 1,
+  	  target: 'box1'
+  	})
+  	
+    .scrolling({
+      start: 2,
+      end: 3,
+      target: 'box2'
+    })
+    
+    .scrolling({
+      start: 3,
+      end: 4,
+      target: 'box3'
+    })
+  	
+    // Play the video right away
+    .play();
+  });
 
-         // add a footnote at 2 seconds, and remove it at 6 seconds
-         pop.footnote({
-           start: 2,
-           end: 6,
-           text: "Pop!",
-           target: "footnotediv"
-         });
-      
-      	//Trying to scroll the page (for now just console logs)
-      	pop.scrolling({
-  		  start: 2, 
-  		  end: 5
-		});
-      
-         // play the video right away
-         pop.play();
-         
-         //Console log
-         pop.listen("play", function() {
-         console.log("Playing!");
-         
-         });
-
-      }, false);
-	
-    </script> 
+  </script> 
 	
 </head> 
  
 <body> 
 
-    <video height="180" width="300" id="ourvideo">
-      <source src="http://videos.mozilla.org/serv/webmademovies/popcornplug.mp4"></source>
-      <source src="http://videos.mozilla.org/serv/webmademovies/popcornplug.ogv"></source>
-      <source src="http://videos.mozilla.org/serv/webmademovies/popcornplug.webm"></source>
-    </video>
-    <div id="footnotediv"></div>
+  <video height="180" width="300" id="ourvideo">
+    <source src="http://videos.mozilla.org/serv/webmademovies/popcornplug.mp4"></source>
+    <source src="http://videos.mozilla.org/serv/webmademovies/popcornplug.ogv"></source>
+    <source src="http://videos.mozilla.org/serv/webmademovies/popcornplug.webm"></source>
+  </video>
  
-<h1>A very simple jQuery LocalScroll Demo</h1> 
-<h3>Links to colored boxes</h3> 
- 
-<div id="box-links"> 
-	
-	<a href="#box1">Link to box #1</a> 
-	<a href="#box2">Link to box #2</a> 
-	<a href="#box3">Link to box #3</a> 
-	<a href="#box4">Link to box #4</a> 
-	
-</div> 
- 
-<div id="box1" class="box">Box #1</div> 
-<div id="box2" class="box">Box #2</div> 
-<div id="box3" class="box">Box #3</div> 
-<div id="box4" class="box">Box #4</div> 
- 
+  <div id="box1" class="box">Box #1</div> 
+  <div id="box2" class="box">Box #2</div> 
+  <div id="box3" class="box">Box #3</div> 
+  <div id="box4" class="box">Box #4</div> 
 	
 </body> 
 </html> 
