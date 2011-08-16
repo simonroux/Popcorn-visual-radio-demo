@@ -5,13 +5,15 @@
 	
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
 	
-	<title>Popcorn.js scrolling demo</title> 
+	<title>Popcorn visual radio demo</title> 
 		
 	<!-- Load jQuery stuff --> 
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script> 
 	<script src="js/jquery/jquery.scrollTo.js"></script> 
 	<script src="js/jquery/jquery.easing.js"></script>
-	<script src="js/jquery/jquery.jplayer.min.js"></script>  
+	<script src="js/mediaelement/mediaelement-and-player.js"></script>  
+	<script src="js/jquery/jquery.jplayer.min.js"></script>
+	<script src="js/iscroll/iscroll.js"></script>
 	
 	<!-- Load Popcorn stuff -->
 	<script src="js/popcorn/popcorn-complete.js"></script>
@@ -21,13 +23,14 @@
 	<script src="cues.js"></script>	
 
 	<!-- Load CSS --> 
+	<link rel="stylesheet" href="js/mediaelement/mediaelementplayer.css" />
 	<link rel="stylesheet" href="style.css" type="text/css" media="screen"/>
 
 </head> 
  
 <body> 
 <div id="player"> <div class="content">
-<audio id="gdm" preload="auto" autobuffer="" controls="">
+<audio id="gdm" preload="auto" autobuffer="" controls="" width="800">
 <source src="http://media.guerredesmondes.org/animauxetpolitique01122010.mp3">
 </audio>
 
@@ -49,16 +52,18 @@
 </div>
 </div>
 
+<div id="wrapper">
 <!-- ///////// -->
 <!-- Section 1 -->
 <!-- ///////// -->
 <div id="section1" class="box"><div class="content"><div class="gdm">LA GUERRE DES MONDES</div><h1>Spécial animaux et politique</h1>
-<img src="http://www.openclipart.org/people/ArtFavor/ape02.svg"/></div> </div>
+<img src="http://www.openclipart.org/people/ArtFavor/ape02.svg"/></div> 
+</div>
 
 <!-- ///////// -->
 <!-- Section 2 -->
 <!-- ///////// -->
-  <div id="section2" class="box"> 
+  <div id="section2" class="box" rel="49-197"> 
  <div class="content">
      <div class="preview"><img src="http://multimedia.fnac.com/multimedia/images_produits/ZoomPE/5/6/8/2630022741865.jpg" Width=300 Height=300 alt="Nicholson Pochette"/></div>
  <h1>Qu'est-ce que les animaux ont moins que nous</h1>
@@ -114,6 +119,13 @@
 
   <div id="section6" class="box"><div class="content">
   <h2>Jonsi - Animal Arythmetics</h2>
+<div class="preview"><img src="http://upload.wikimedia.org/wikipedia/en/6/67/Jonsi-go-cover.jpg" Width=300 Height=300 alt="Nicholson Pochette"/></div>
+<div class ="description"><p>go contains nine songs amassed from the large pool of songs written by jónsi during his many years with sigur rós. the album is sung in english and icelandic, and was co-produced by jónsi, his partner alex somers and peter katis (the national, interpol).
+
+when he began working on go, jónsi initially thought he would be making a low-key, acoustic album until, as he says, “somewhere along the line, it just sort of exploded.” that explosion resulted in sheer aural fireworks. not a straight ahead pop record, nor rock, folk, ambient or electronic, it encompasses all of these to create an expansive musical palette that’s been brought to life by jónsi alongside a number of free-spirited collaborators.
+</p>
+<p>http://jonsi.com/go</p>
+
 	</div>
 	</div>
 	</div>
@@ -181,3 +193,16 @@
 	</div>
 	</div>
 </div> 
+</div>
+
+<script>
+$('audio,video').mediaelementplayer();
+</script>
+
+<script>
+//stick the footer at the bottom of the page if we're on an iPad/iPhone due to viewport/page bugs in mobile webkit
+if(navigator.platform == 'iPad' || navigator.platform == 'iPhone' || navigator.platform == 'iPod')
+{
+     $("#player").css("position", "static");
+};
+</script>

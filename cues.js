@@ -2,8 +2,8 @@
   $(document).ready(function() {
      // Create a popcorn instance by calling Popcorn("#id-of-my-video")
      var pop = Popcorn("#gdm")
-     
-     
+
+    
 // The scrolling actions underlines de different sections of the show, the other scripts happen when a section is loaded.
  
 // Section 1 
