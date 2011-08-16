@@ -1,28 +1,86 @@
+/* Boxes */	
+	body {
+	color: white;
+	margin:0px;
+	font-family: arial;
+	}
 	
+	.gdm {
+	}
+	
+
 	.box {
-		width: 1200px;
+		width: 100%;
 		height: 900px;
-		
+		padding-top: 150px;
 		color: #fff;
-		padding: 0px;
+		margin: 0px 0 0 0;
 		
-		margin: 0px 0 0 0;
+	
+	}
+	.content{
+	margin-left:auto;
+	margin-right:auto;
+	width:900px;
+	}
+	.preview {
+	float:right;
+	}
+	.description {
+	float:left;
+	width:600px;
 	}
 	
-	#box1 {
-		margin: 0px 0 0 0;
-		background: blue;
+	#player {
+		border-style: solid;
+		border-width: 2px;
+		border-color: white;
+		position:fixed;	
+		background-color: white ;
+        opacity: 0.5;
+		height: 100px;
+		width: 100%;
+		padding:10px;
+		}
+		
+	#section1 {
+		background: #797d4e;
 	}
 	
-	#box2 {
-		background: red;
+	#section2 {
+		background: #07a4d1;
 	}
 	
-	#box3 {
+	#section3 {
 		background: green;
 	}
 	
-	#box4 {
+	#section4 {
 		background: gray;
 	}
-	
+
+	img {
+	float:right;
+	clear:right
+	}
+
+/* Caracters */
+	p {
+	padding-right: 20px;
+	margin:0px;
+	margin-bottom:20px;
+	margin-top:20px;
+	}
+	body a {
+	color: white;
+	font-style: italic;
+	text-decoration: none;
+	font-size: 12px;
+	}
+	h1 {
+	margin-bottom:5px;
+	margin-top:5px;
+	}
+	h2 {
+	margin:0px;
+	}
