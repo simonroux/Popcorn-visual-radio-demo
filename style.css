@@ -15,9 +15,8 @@
 		padding-top: 150px;
 		color: #fff;
 		margin: 0px 0 0 0;
-		
-	
 	}
+	
 	.content{
 	margin-left:auto;
 	margin-right:auto;
@@ -32,32 +31,12 @@
 	}
 	
 	#player {
-		border-style: solid;
-		border-width: 2px;
-		border-color: white;
 		position:fixed;	
-		background-color: white ;
         opacity: 0.5;
-		height: 100px;
+		height: 40px;
 		width: 100%;
 		padding:10px;
 		}
-		
-	#section1 {
-		background: #797d4e;
-	}
-	
-	#section2 {
-		background: #07a4d1;
-	}
-	
-	#section3 {
-		background: green;
-	}
-	
-	#section4 {
-		background: gray;
-	}
 
 	img {
 	float:right;
@@ -83,4 +62,158 @@
 	}
 	h2 {
 	margin:0px;
+	}
+
+/* Sections */
+	#section1 {
+		background: #797d4e;
+	}
+	
+	#section2 {
+		background: #07a4d1;
+	}
+	
+	#section3 {
+		background: #42417D;
+	}
+	
+	#section4 {
+		background: #6EB05C;
+	}
+	#section5 {
+		background: #797D4E;
+	}
+	#section6 {
+		background: #5D5CB0;
+	}
+	#section7 {
+		background: #797d4e;
+	}
+	
+	#section8 {
+		background: #07a4d1;
+	}
+	
+	#section9 {
+		background: #7D788A;
+	}
+	
+	#section10 {
+		background: #5D5CB0;
+	}
+	#section11 {
+		background: #E3B160;
+	}
+	#section12 {
+		background: #635720;
+	}
+	#section13 {
+		background: #B0A15C;
+	}
+
+.visualtimeline {
+	width:763px;
+	margin-left:30px;
+}
+	#cue1 {
+		background: #797d4e;
+		width:1.53%;
+		height:5px;
+		float:left;
+
+	}
+	#cue2 {
+		float:left;
+		background: #07a4d1;
+		height:5px;
+		width: 4.64%;
+	}
+		#cue3 {
+		float:left;
+		background: #07a4d1;
+		height:5px;
+		width: 6.89%;
+		background: #42417D;
+	}
+	
+	#cue4 {
+		float:left;
+		background: #07a4d1;
+		height:5px;
+		width: 4.83%;
+		background: #6EB05C;
+	}
+	#cue5 {
+		float:left;
+		background: #07a4d1;
+		height:5px;
+		width: 15.55%;
+		background: #797D4E;
+	}
+	#cue6 {
+		float:left;
+		background: #07a4d1;
+		height:5px;
+		width: 3.61%;
+		background: #5D5CB0;
+	}
+	#cue7 {
+		float:left;
+		background: #07a4d1;
+		height:5px;
+		width: 12.06%;
+		background: #797d4e;
+	}
+	
+	#cue8 {
+		float:left;
+		background: #07a4d1;
+		height:5px;
+		width: 1.93%;
+		background: #07a4d1;
+	}
+	
+	#cue9 {
+		float:left;
+		background: #07a4d1;
+		height:5px;
+		width: 17.98%;
+		background: #7D788A;
+	}
+	
+	#cue10 {
+		float:left;
+		background: #07a4d1;
+		height:5px;
+		width: 5.33%;
+		background: #5D5CB0;
+	}
+	#cue11 {
+		float:left;
+		background: #07a4d1;
+		height:5px;
+		width: 20.29%;
+		background: #E3B160;
+	}
+	#cue12 {
+		float:left;
+		background: #07a4d1;
+		height:5px;
+		width: 2.43%;
+		background: #635720;
+	}
+	#cue13 {
+		float:left;
+		background: #07a4d1;
+		height:5px;
+		width: 2.93%;
+		background: #B0A15C;
+	}
+
+	
+/* Things */
+	audio {
+	width:900px;
+	margin-left:-10px;
+	padding-left:0px;
 	}
