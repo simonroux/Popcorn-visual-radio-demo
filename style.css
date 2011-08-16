@@ -8,6 +8,7 @@
 	.gdm {
 	}
 	
+
 	.box {
 		width: 100%;
 		height: 900px;
@@ -118,12 +119,6 @@
 
 }
 	#cue1 {
-		border-bottom-color: #333333;
-		border-bottom-style: solid;
-		border-bottom-width: 1px;
-		border-left-color: #333333 ;
-		border-left-style: solid;
-		border-left-width: 1px;
 		background: #797d4e;
 		width:1.53%;
 		height:5px;
@@ -132,18 +127,12 @@
 	}
 	#cue2 {
 		float:left;
-		border-bottom-color: #333333;
-		border-bottom-style: solid;
-		border-bottom-width: 1px;
 		background: #07a4d1;
 		height:5px;
 		width: 4.64%;
 	}
 		#cue3 {
 		float:left;
-		border-bottom-color: #333333;
-		border-bottom-style: solid;
-		border-bottom-width: 1px;
 		background: #07a4d1;
 		height:5px;
 		width: 6.89%;
@@ -152,9 +141,6 @@
 	
 	#cue4 {
 		float:left;
-		border-bottom-color: #333333;
-		border-bottom-style: solid;
-		border-bottom-width: 1px;
 		background: #07a4d1;
 		height:5px;
 		width: 4.83%;
@@ -162,9 +148,6 @@
 	}
 	#cue5 {
 		float:left;
-		border-bottom-color: #333333;
-		border-bottom-style: solid;
-		border-bottom-width: 1px;
 		background: #07a4d1;
 		height:5px;
 		width: 15.55%;
@@ -172,9 +155,6 @@
 	}
 	#cue6 {
 		float:left;
-		border-bottom-color: #333333;
-		border-bottom-style: solid;
-		border-bottom-width: 1px;
 		background: #07a4d1;
 		height:5px;
 		width: 3.61%;
@@ -182,9 +162,6 @@
 	}
 	#cue7 {
 		float:left;
-		border-bottom-color: #333333;
-		border-bottom-style: solid;
-		border-bottom-width: 1px;
 		background: #07a4d1;
 		height:5px;
 		width: 12.06%;
@@ -193,9 +170,6 @@
 	
 	#cue8 {
 		float:left;
-		border-bottom-color: #333333;
-		border-bottom-style: solid;
-		border-bottom-width: 1px;
 		background: #07a4d1;
 		height:5px;
 		width: 1.93%;
@@ -204,9 +178,6 @@
 	
 	#cue9 {
 		float:left;
-		border-bottom-color: #333333;
-		border-bottom-style: solid;
-		border-bottom-width: 1px;
 		background: #07a4d1;
 		height:5px;
 		width: 17.98%;
@@ -215,9 +186,6 @@
 	
 	#cue10 {
 		float:left;
-		border-bottom-color: #333333;
-		border-bottom-style: solid;
-		border-bottom-width: 1px;
 		background: #07a4d1;
 		height:5px;
 		width: 5.33%;
@@ -225,18 +193,12 @@
 	}
 	#cue11 {
 		float:left;
-		border-bottom-color: #333333;
-		border-bottom-style: solid;
-		border-bottom-width: 1px;
 		background: #07a4d1;
 		height:5px;
 		width: 20.29%;
 		background: #E3B160;
 	}
 	#cue12 {
-		border-bottom-color: #333333;
-		border-bottom-style: solid;
-		border-bottom-width: 1px;
 		float:left;
 		background: #07a4d1;
 		height:5px;
@@ -244,12 +206,6 @@
 		background: #635720;
 	}
 	#cue13 {
-		border-right-color: #333333;
-		border-right-style: solid;
-		border-right-width: 1px;
-		border-bottom-color: #333333;
-		border-bottom-style: solid;
-		border-bottom-width: 1px;
 		float:left;
 		background: #07a4d1;
 		height:5px;

@@ -1,7 +1,7 @@
 // When the document is loaded...
   $(document).ready(function() {
      // Create a popcorn instance by calling Popcorn("#id-of-my-video")
-     pop = Popcorn("#gdm")
+     var pop = Popcorn("#gdm")
 
     
 // The scrolling actions underlines de different sections of the show, the other scripts happen when a section is loaded.
@@ -106,12 +106,6 @@
       end: 3209,
       target: 'section13'
     })
-		
-		// Jump to timecode (proof of concept)
-		$('#jump2').click(function() {
-			pop.currentTime(49).play();
-			return false;
-		})
   });
   
   
