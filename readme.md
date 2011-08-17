@@ -2,7 +2,9 @@ Popcorn visual radio demo (radiobimbo)
 The popcorn visual radio demo is a prototype to try to showcase complementary content to a linear audio content in a such a way that it could be experienced in a engaging non-linear way. It's bimbofied radio content. 
 
 ////// TO-DO ////////// 
+
 0.1
+
 - Layouts for different types of content
 - Trigerred popcorn events that can also be experience through click actions (google maps, images,etc.)
 - Tigerred SVG animations 
@@ -14,6 +16,7 @@ The popcorn visual radio demo is a prototype to try to showcase complementary co
 - First rough version of the visual timeline @done
 
 0.2 
+
 - Flip instead of scroll for ipad
 - Ipad / iphone compatibility for the fixed div
 - Player that works on mobile webkit (maybe jplayer instead of mediaelementplayer)
