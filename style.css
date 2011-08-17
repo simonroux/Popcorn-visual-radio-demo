@@ -119,6 +119,12 @@
 
 }
 	#cue1 {
+		border-left-style: solid;
+		border-bottom-style: solid;
+		border-left-color: #333333;
+		border-bottom-color: #333333;
+		border-bottom-width: 1px;
+		border-left-width: 1px;
 		background: #797d4e;
 		width:1.53%;
 		height:5px;
@@ -126,12 +132,18 @@
 
 	}
 	#cue2 {
+		border-bottom-style: solid;
+		border-bottom-color: #333333;
+		border-bottom-width: 1px;
 		float:left;
 		background: #07a4d1;
 		height:5px;
 		width: 4.64%;
 	}
 		#cue3 {
+			border-bottom-style: solid;
+			border-bottom-color: #333333;
+		border-bottom-width: 1px;
 		float:left;
 		background: #07a4d1;
 		height:5px;
@@ -140,6 +152,9 @@
 	}
 	
 	#cue4 {
+		border-bottom-style: solid;
+		border-bottom-color: #333333;
+		border-bottom-width: 1px;
 		float:left;
 		background: #07a4d1;
 		height:5px;
@@ -147,6 +162,9 @@
 		background: #6EB05C;
 	}
 	#cue5 {
+		border-bottom-style: solid;
+		border-bottom-color: #333333;
+		border-bottom-width: 1px;
 		float:left;
 		background: #07a4d1;
 		height:5px;
@@ -154,6 +172,9 @@
 		background: #797D4E;
 	}
 	#cue6 {
+		border-bottom-style: solid;
+		border-bottom-color: #333333;
+		border-bottom-width: 1px;
 		float:left;
 		background: #07a4d1;
 		height:5px;
@@ -161,6 +182,9 @@
 		background: #5D5CB0;
 	}
 	#cue7 {
+		border-bottom-style: solid;
+		border-bottom-color: #333333;
+		border-bottom-width: 1px;
 		float:left;
 		background: #07a4d1;
 		height:5px;
@@ -169,6 +193,9 @@
 	}
 	
 	#cue8 {
+		border-bottom-style: solid;
+		border-bottom-color: #333333;
+		border-bottom-width: 1px;
 		float:left;
 		background: #07a4d1;
 		height:5px;
@@ -177,6 +204,9 @@
 	}
 	
 	#cue9 {
+		border-bottom-style: solid;
+		border-bottom-color: #333333;
+		border-bottom-width: 1px;
 		float:left;
 		background: #07a4d1;
 		height:5px;
@@ -185,6 +215,9 @@
 	}
 	
 	#cue10 {
+		border-bottom-style: solid;
+		border-bottom-color: #333333;
+		border-bottom-width: 1px;
 		float:left;
 		background: #07a4d1;
 		height:5px;
@@ -192,6 +225,9 @@
 		background: #5D5CB0;
 	}
 	#cue11 {
+		border-bottom-style: solid;
+		border-bottom-color: #333333;
+		border-bottom-width: 1px;
 		float:left;
 		background: #07a4d1;
 		height:5px;
@@ -199,6 +235,9 @@
 		background: #E3B160;
 	}
 	#cue12 {
+		border-bottom-style: solid;
+		border-bottom-color: #333333;
+		border-bottom-width: 1px;
 		float:left;
 		background: #07a4d1;
 		height:5px;
@@ -206,6 +245,12 @@
 		background: #635720;
 	}
 	#cue13 {
+		border-right-style: solid;
+		border-bottom-style: solid;
+		border-right-color: #333333;
+		border-bottom-color: #333333;
+		border-right-width: 1px;
+		border-bottom-width: 1px;
 		float:left;
 		background: #07a4d1;
 		height:5px;
