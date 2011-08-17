@@ -24,6 +24,7 @@
 	}
 	.preview {
 	float:right;
+	padding-top:5px;
 	}
 	.description {
 	float:left;
@@ -52,15 +53,20 @@
 	}
 	body a {
 	color: white;
-	font-style: italic;
 	text-decoration: none;
-	font-size: 12px;
 	}
 	h1 {
+	font-color: white;
 	margin-bottom:5px;
-	margin-top:5px;
+	margin-top:0px;
 	}
+	
 	h2 {
+	margin:0px;
+	font-size:2em;
+	}
+	
+	h3 {
 	margin:0px;
 	}
 
@@ -271,6 +277,6 @@ margin-left:30px;
 }
 
 .jump {
-float:left;
-margin-left:-40px;
+color:white;
+text-decoration:none;
 }
