@@ -269,3 +269,8 @@ audio {
 width: 800px;
 margin-left:30px;
 }
+
+.jump {
+float:left;
+margin-left:-40px;
+}

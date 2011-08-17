@@ -106,13 +106,16 @@
       end: 3209,
       target: 'section13'
     })
-		
-		// Jump to timecode (proof of concept)
-		$('#jump2').click(function() {
-			pop.currentTime(49).play();
-			return false;
-		})
-  });
+    
+$(document).ready(function(){		
+      $("a").click(function(event){
+     pop.currentTime($(this).attr('rel')).play();
+  $("a").bind('click',function(event){
+
+     })
+   })
+   })
+});
   
   
   
