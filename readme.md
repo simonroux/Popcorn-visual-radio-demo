@@ -1,5 +1,5 @@
 Popcorn visual radio demo (radiobimbo)
-The popcorn visual radio demo is a prototype to try to showcase complementary content to a linear audio content in a such a way that it could be experienced in a engaging non-linear way. It's bimbofied radio content. 
+The popcorn visual radio demo is a prototype showcasing complementary content alongside linear audio content with the goal of having a more entertaining non-linear listening experience. It's bimbofied radio content.
 
 ////// TO-DO ////////// 
 

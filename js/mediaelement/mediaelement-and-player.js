@@ -973,9 +973,9 @@ if (typeof jQuery != 'undefined') {
 		// if set, overrides <video height>
 		videoHeight: -1,
 		// width of audio player
-		audioWidth: 900,
+		
 		// height of audio player
-		audioHeight: 30,
+	
 		// initial volume when the player starts (overrided by user cookie)
 		startVolume: 0.8,
 		// useful for <audio> player loops
