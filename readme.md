@@ -29,10 +29,12 @@ The popcorn visual radio demo is a prototype showcasing complementary content al
 - Load media box previews in the mainbox, in sync with the narrator's story, to illustrate what he's saying. Media box can also be browsed through click interactions.
 
 0.3 
+
 - «Flipboard» style browsing of additionnal content. Where a block of content can overlap all others.
 
 
 
 Feature list 
+
 - Some sort of snapping feature so that when you reach the top edge of a block of content, you feel it could be snapped it the right position.
 - Trigger scroll events in div when the narration is playing.
