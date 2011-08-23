@@ -43,13 +43,20 @@
 	margin-top:20px;
 	width:590px;
 	height:300px;
+
+		}
+		
+	.text {
+	width:auto;
+	height:290px;
 	-moz-column-count: 5; 
 	-moz-column-gap: 1em; 
 	-moz-column-width: 590px;
 	-webkit-column-count: 5; 
 	-webkit-column-gap: 1em;
 	-webkit-column-width: 590px;
-		}
+	
+	}
 	
 /* Additionnal content */	
 	.additionalcontent {

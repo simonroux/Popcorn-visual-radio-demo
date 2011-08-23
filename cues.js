@@ -115,6 +115,11 @@ $(document).ready(function(){
      })
    })
    })
+   
+$(function()
+{
+	$('.description').jScrollPane();
+});
 });
   
   
