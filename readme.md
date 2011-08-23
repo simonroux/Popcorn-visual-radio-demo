@@ -35,3 +35,4 @@ The popcorn visual radio demo is a prototype showcasing complementary content al
 
 Feature list 
 - Some sort of snapping feature so that when you reach the top edge of a block of content, you feel it could be snapped it the right position.
+- Trigger scroll events in div when the narration is playing.
