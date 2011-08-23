@@ -1,8 +1,29 @@
 // When the document is loaded...
   $(document).ready(function() {
-     // Create a popcorn instance by calling Popcorn("#id-of-my-video")
-     pop = Popcorn("#gdm")
+	  // Create a popcorn instance by calling Popcorn("#id-of-my-video")
+    pop = Popcorn("#gdm");
+  	
+		pop.listen('loadedmetadata', function() {
+			duration = pop.duration();
+			
+			// Initialize visual timeline
+			$('#player .content').append('<div class="visualtimeline">');
 
+			// Find all sections
+			$('.section').each(function(i) {
+				var id = ++i;
+				var startTime = $(this).attr('data-start');
+				var endTime = $(this).next('.section').attr('data-start');
+				if (typeof(endTime) == "undefined") {
+					endTime = duration;
+				}
+				var segmentWidth = Math.round((endTime - startTime)/duration * 10000) / 100;
+				
+				// Build visual timeline
+				$('<div/>', { id: "cue" + id }).css('width', segmentWidth + "%").appendTo($('#player .content .visualtimeline'))
+			});
+		});
+		
     
 // The scrolling actions underlines de different sections of the show, the other scripts happen when a section is loaded.
  
